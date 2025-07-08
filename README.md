@@ -24,17 +24,26 @@ Aplicación interactiva para explorar países del mundo, con filtros por nombre 
 
 ---
 
-## 🧩 Generalidades de la solución
+## 🔧 Generalidades de la solución
 
-Este proyecto fue desarrollado como solución a una prueba técnica frontend. Se priorizó:
+El desarrollo del proyecto se llevó a cabo utilizando **Next.js 14 con la App Router**, haciendo uso de los componentes como `page.tsx` y `layout.tsx` para definir la estructura de navegación. A continuación, se describen las generalidades de cómo se resolvió el reto:
 
-- 🗺️ **Consumo de la API** pública `restcountries.com` para obtener información actualizada de todos los países.
-- 🌓 **Experiencia de usuario** con dark mode y diseño responsivo para desktop y mobile.
-- 🔍 **Búsqueda en tiempo real** por nombre del país y filtrado por región.
-- 🔁 **Reutilización de componentes** como tarjetas de país, input de búsqueda, filtro de regiones y botón de cambio de tema.
-- 💅 **Estilos modernos y personalizables** con TailwindCSS y `shadcn/ui`.
-- 🧪 **Pruebas unitarias** con `Jest` y `@testing-library/react`, cubriendo los componentes principales.
-- 🧩 **Arquitectura modular y escalable**, siguiendo buenas prácticas con separación de responsabilidades.
+- Se integró la API de [restcountries.com](https://restcountries.com/) para obtener todos los datos de los países.
+- Se implementó una **búsqueda por nombre** y **filtrado por región**, permitiendo una experiencia de usuario fluida y precisa.
+- Se realizó navegación dinámica mediante `app/country/[code]/page.tsx`, permitiendo ver el detalle de cada país por su código.
+- Se utilizó `shadcn/ui` y `lucide-react` para crear una interfaz moderna, accesible y con diseño responsivo.
+- Se incorporó la tipografía **Nunito Sans** desde Google Fonts, siguiendo una paleta de colores basada en HSL.
+
+### 🌙 Soporte de Dark Mode
+
+- Se usó el paquete `next-themes` para detectar y alternar entre temas claro y oscuro.
+- Se aplicaron clases condicionales de Tailwind (`dark:`) para cambiar los estilos según el tema actual, respetando el sistema del usuario.
+
+### 🧪 Pruebas Unitarias
+
+- Se configuró Jest y Testing Library para realizar pruebas de componentes clave como `CountryCard`, `SearchInput` y `RegionFilter`.
+- Se añadieron mocks y casos de prueba que aseguran la correcta renderización, interactividad y respuesta de los componentes.
+
 
 ---
 
