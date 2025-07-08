@@ -94,16 +94,37 @@ src/
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## 🛠️ Tecnologías Utilizadas
 
-- [Next.js 15](https://nextjs.org/) – Framework de React para renderizado híbrido y rutas tipo file-system.
-- [React 19](https://react.dev/) – Librería para construir interfaces interactivas.
-- [TypeScript](https://www.typescriptlang.org/) – Tipado estático para mayor robustez y mantenimiento.
-- [TailwindCSS](https://tailwindcss.com/) – Framework de utilidades para estilos CSS rápidos y personalizados.
-- [shadcn/ui](https://ui.shadcn.com/) – Componentes accesibles y personalizables para React con Tailwind.
-- [Font Awesome](https://fontawesome.com/) – Iconografía moderna y flexible.
-- [Jest](https://jestjs.io/) – Framework de pruebas para JavaScript y TypeScript.
-- [React Testing Library](https://testing-library.com/) – Testing orientado a comportamiento del usuario.
+A continuación se describen las tecnologías y versiones utilizadas en el proyecto, junto con su propósito:
+
+- **React (v19.1.0)**  
+  Se utilizó como librería principal para construir la interfaz de usuario, gracias a su eficiencia y enfoque declarativo.
+
+- **React DOM (v19.1.0)**  
+  Permite renderizar los componentes React en el DOM del navegador. Es esencial para que React funcione en entornos web.
+
+- **Next.js (v15.3.5)**  
+  Framework basado en React que proporciona renderizado del lado del servidor, rutas automáticas y optimizaciones como división de código. Facilitó el desarrollo rápido y estructurado.
+
+- **TypeScript (v5.8.3)**  
+  Se empleó para agregar tipado estático al código JavaScript, lo cual mejora la mantenibilidad, reduce errores y ayuda al desarrollo colaborativo.
+
+- **Radix UI - Dropdown Menu (v2.1.15)**  
+  Se utilizó para construir menús accesibles y con buena experiencia de usuario, como el filtro por región, sin necesidad de implementar lógica compleja desde cero.
+
+- **Next Themes (v0.4.6)**  
+  Proporciona una forma sencilla de implementar modo claro/oscuro, con persistencia automática del tema seleccionado por el usuario.
+
+- **Lucide React (v0.525.0)**  
+  Librería de iconos moderna y ligera, utilizada para mejorar la interfaz visual (por ejemplo, íconos de flechas o modo oscuro).
+
+- **FontAwesome React (v0.2.2)**  
+  Se usó para incluir algunos íconos adicionales con amplio reconocimiento visual, complementando el diseño.
+
+- **Testing Library React (v16.3.0)**  
+  Herramienta para escribir pruebas unitarias centradas en la experiencia del usuario. Ayuda a verificar que los componentes funcionen como se espera sin centrarse en su implementación interna.
+
 
 ---
 
