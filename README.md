@@ -46,6 +46,20 @@ El desarrollo del proyecto se llevó a cabo utilizando **Next.js 14 con la App R
 
 
 ---
+El proyecto sigue una arquitectura **modular basada en componentes reutilizables**, combinada con las capacidades del **App Router de Next.js** para definir rutas y layouts a nivel de archivo. La estructura se organizó bajo `src/` y prioriza claridad, separación de responsabilidades y facilidad de mantenimiento. Las principales decisiones arquitectónicas fueron:
+
+- Uso de `app/` como entrada principal del sistema, aprovechando `layout.tsx` para envoltura global (temas, tipografía, estructura).
+- División en capas claras:
+  - `components/`: componentes visuales y funcionales reutilizables.
+  - `lib/`: funciones auxiliares para consumo de APIs y utilidades.
+  - `types/`: definición de tipos TypeScript para mantener tipado seguro.
+  - `tests/`: pruebas unitarias separadas por componente.
+- Implementación de rutas dinámicas como `country/[code]/page.tsx` para navegación basada en datos desde la API.
+- Adopción de TailwindCSS + shadcn/ui para diseño consistente y componentes estilizados sin perder flexibilidad.
+
+Esta arquitectura permite escalar la aplicación fácilmente, probar de forma aislada y mantener una experiencia de usuario sólida en cualquier dispositivo.
+
+---
 
 ## 📁 Estructura del proyecto
 
