@@ -38,47 +38,49 @@ Este proyecto fue desarrollado como solución a una prueba técnica frontend. Se
 
 ---
 
-## 🏗️ Arquitectura del proyecto
+## 📁 Estructura del proyecto
 
-La estructura del proyecto se organiza bajo `src/` para facilitar la escalabilidad y mantener una separación clara de responsabilidades:
+La siguiente estructura se encuentra organizada bajo la carpeta principal `src/`, siguiendo principios de modularidad y separación de responsabilidades:
 
+```bash
 src/
 ├── app/
-│ ├── favicon.ico
-│ ├── globals.css
-│ ├── layout.tsx
-│ ├── page.tsx
-│ └── country/
-│ └── [code]/
-│ └── page.tsx
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── country/
+│       └── [code]/
+│           └── page.tsx
 │
 ├── components/
-│ ├── CountryCard.tsx
-│ ├── Header.tsx
-│ ├── RegionFilter.tsx
-│ ├── SearchInput.tsx
-│ ├── ThemeToggle.tsx
-│ └── ui/
-│ ├── button.tsx
-│ ├── card.tsx
-│ ├── dropdown-menu.tsx
-│ └── input.tsx
+│   ├── CountryCard.tsx
+│   ├── Header.tsx
+│   ├── RegionFilter.tsx
+│   ├── SearchInput.tsx
+│   ├── ThemeToggle.tsx
+│   └── ui/
+│       ├── button.tsx
+│       ├── card.tsx
+│       ├── dropdown-menu.tsx
+│       └── input.tsx
 │
 ├── lib/
-│ ├── api.ts
-│ └── utils.ts
+│   ├── api.ts
+│   └── utils.ts
 │
 ├── styles/
-│ └── globals.css
+│   └── globals.css
 │
 ├── tests/
-│ ├── CountryCard.test.tsx
-│ ├── RegionFilter.test.tsx
-│ ├── SearchInput.test.tsx
-│ └── global.d.ts
+│   ├── CountryCard.test.tsx
+│   ├── RegionFilter.test.tsx
+│   ├── SearchInput.test.tsx
+│   └── global.d.ts
 │
 └── types/
-└── country.ts
+    └── country.ts
+
 
 ---
 
