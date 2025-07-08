@@ -6,6 +6,35 @@ Aplicación interactiva para explorar países del mundo, con filtros por nombre 
 
 ---
 
+## 📥 Clonar y ejecutar el proyecto localmente
+
+Si deseas ejecutar esta aplicación en tu máquina local, sigue los siguientes pasos:
+
+1. 📦 Clona el repositorio:
+
+```bash
+git clone https://github.com/luciaduque248/CountriesApp.git
+```
+
+2. 📁 Accede al directorio del proyecto:
+
+```bash
+cd CountriesApp
+```
+
+3. 📚 Instala las dependencias:
+```bash
+npm install
+```
+
+4. 🚀 Inicia el servidor de desarrollo:
+```bash
+npm run dev
+```
+Esto levantará la aplicación en http://localhost:3000/.
+
+---
+
 ## 📸 Pantallazos
 
 ### 🖥️ PC
