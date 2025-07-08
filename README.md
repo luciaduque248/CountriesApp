@@ -58,7 +58,7 @@ Esto levantará la aplicación en http://localhost:3000/.
 El desarrollo del proyecto se llevó a cabo utilizando **Next.js 14 con la App Router**, haciendo uso de los componentes como `page.tsx` y `layout.tsx` para definir la estructura de navegación. A continuación, se describen las generalidades de cómo se resolvió el reto:
 
 - Se integró la API de [restcountries.com](https://restcountries.com/) para obtener todos los datos de los países.
-- Se implementó una **búsqueda por nombre** y **filtrado por región**, permitiendo una experiencia de usuario fluida y precisa.
+- Se implementó una búsqueda exclusivamente por nombre de país y filtrado por región, permitiendo una experiencia de usuario fluida y precisa.
 - Se realizó navegación dinámica mediante `app/country/[code]/page.tsx`, permitiendo ver el detalle de cada país por su código.
 - Se utilizó `shadcn/ui` y `lucide-react` para crear una interfaz moderna, accesible y con diseño responsivo.
 - Se incorporó la tipografía **Nunito Sans** desde Google Fonts, siguiendo una paleta de colores basada en HSL.
