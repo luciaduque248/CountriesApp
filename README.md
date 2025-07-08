@@ -94,36 +94,19 @@ src/
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Tecnologías utilizadas
 
-A continuación se describen las tecnologías y versiones utilizadas en el proyecto, junto con su propósito:
-
-- **React (v19.1.0)**  
-  Se utilizó como librería principal para construir la interfaz de usuario, gracias a su eficiencia y enfoque declarativo.
-
-- **React DOM (v19.1.0)**  
-  Permite renderizar los componentes React en el DOM del navegador. Es esencial para que React funcione en entornos web.
-
-- **Next.js (v15.3.5)**  
-  Framework basado en React que proporciona renderizado del lado del servidor, rutas automáticas y optimizaciones como división de código. Facilitó el desarrollo rápido y estructurado.
-
-- **TypeScript (v5.8.3)**  
-  Se empleó para agregar tipado estático al código JavaScript, lo cual mejora la mantenibilidad, reduce errores y ayuda al desarrollo colaborativo.
-
-- **Radix UI - Dropdown Menu (v2.1.15)**  
-  Se utilizó para construir menús accesibles y con buena experiencia de usuario, como el filtro por región, sin necesidad de implementar lógica compleja desde cero.
-
-- **Next Themes (v0.4.6)**  
-  Proporciona una forma sencilla de implementar modo claro/oscuro, con persistencia automática del tema seleccionado por el usuario.
-
-- **Lucide React (v0.525.0)**  
-  Librería de iconos moderna y ligera, utilizada para mejorar la interfaz visual (por ejemplo, íconos de flechas o modo oscuro).
-
-- **FontAwesome React (v0.2.2)**  
-  Se usó para incluir algunos íconos adicionales con amplio reconocimiento visual, complementando el diseño.
-
-- **Testing Library React (v16.3.0)**  
-  Herramienta para escribir pruebas unitarias centradas en la experiencia del usuario. Ayuda a verificar que los componentes funcionen como se espera sin centrarse en su implementación interna.
+- [Next.js 15.3.5](https://nextjs.org/) – Framework de React para renderizado híbrido (SSR/SSG), rutas tipo file-system y optimización automática del rendimiento.
+- [React 19.1.0](https://react.dev/) – Librería para construir interfaces de usuario reactivas y basadas en componentes.
+- [TypeScript 5.8.3](https://www.typescriptlang.org/) – Superset de JavaScript con tipado estático que mejora la escalabilidad y mantenibilidad del código.
+- [TailwindCSS](https://tailwindcss.com/) – Framework de utilidades CSS para aplicar estilos de forma rápida, consistente y totalmente personalizable.
+- [shadcn/ui](https://ui.shadcn.com/) – Librería de componentes accesibles construidos sobre Radix UI, pensada para trabajar con TailwindCSS.
+- [Font Awesome React 0.2.2](https://fontawesome.com/) – Iconografía vectorial popular, utilizada para mejorar la experiencia visual.
+- [Lucide React 0.525.0](https://lucide.dev/) – Colección moderna de íconos open source con diseño minimalista.
+- [next-themes 0.4.6](https://github.com/pacocoursey/next-themes) – Gestión de temas (dark/light) con persistencia automática y soporte para SSR.
+- [Jest](https://jestjs.io/) – Framework de pruebas robusto para JavaScript y TypeScript, ideal para pruebas unitarias.
+- [React Testing Library 16.3.0](https://testing-library.com/) – Testing centrado en el comportamiento del usuario y no en los detalles de implementación.
+- [Radix UI](https://www.radix-ui.com/) – Sistema de componentes accesibles sin estilos por defecto, usado como base para el filtro de región (`DropdownMenu`).
 
 
 ---
